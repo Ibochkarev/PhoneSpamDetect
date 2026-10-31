@@ -1,0 +1,19 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [1.0.0-pl] - 2026-06-11
+
+### Added
+- Сниппет isSpamPhone — валидация номера через Google libphonenumber (giggsey/libphonenumber-for-php)
+- Сниппет phoneSpamBlock — preHook для FormIt для блокировки невалидных номеров и номеров из запрещённых регионов
+- Интеграция с FormIt (preHooks), FetchIt и SendIt (через FormIt)
+- Системные настройки: validate_enabled, default_region, allowed_regions, block_invalid, phone_field, block_message, log_blocked
+- Зависимость libphonenumber подключается через Composer при сборке пакета (composer install на сервере не требуется)
+
+### Requirements
+- MODX Revolution 3.x
+- PHP 8.2+

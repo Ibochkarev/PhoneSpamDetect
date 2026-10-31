@@ -1,0 +1,6 @@
+.idea
+config.core.php
+.DS_Store
+core/components/phonespamdetect/vendor/
+_build/
+_preview/

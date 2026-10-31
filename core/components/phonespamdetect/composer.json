@@ -1,0 +1,17 @@
+{
+    "name": "phonespamdetect/phonespamdetect",
+    "version": "1.0.0",
+    "description": "PhoneSpamDetect for MODX 3 - free phone validation and form protection",
+    "require": {
+        "php": ">=8.2.0",
+        "giggsey/libphonenumber-for-php": "^8.13"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhoneSpamDetect\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
