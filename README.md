@@ -4,6 +4,8 @@
 
 **Требования:** MODX Revolution 3.x, PHP 8.2+
 
+**Текущая версия:** 1.0.1-pl (обновлена база libphonenumber до v9.0.41)
+
 ## Источник данных
 
 Единственный источник — [Google libphonenumber](https://github.com/google/libphonenumber) (пакет `giggsey/libphonenumber-for-php`). Библиотека встроена в пакет и работает на сервере без интернета.

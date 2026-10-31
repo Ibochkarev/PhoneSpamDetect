@@ -1,6 +1,6 @@
 {
     "name": "phonespamdetect/phonespamdetect",
-    "version": "1.0.0-rc",
+    "version": "1.0.1-pl",
     "description": "PhoneSpamDetect for MODX 3 - free phone validation and form protection",
     "require": {
         "php": ">=8.2.0",
