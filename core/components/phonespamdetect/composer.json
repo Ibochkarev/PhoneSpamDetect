@@ -4,7 +4,7 @@
     "description": "PhoneSpamDetect for MODX 3 - free phone validation and form protection",
     "require": {
         "php": ">=8.2.0",
-        "giggsey/libphonenumber-for-php": "^8.13"
+        "giggsey/libphonenumber-for-php": "^9.0"
     },
     "autoload": {
         "psr-4": {
